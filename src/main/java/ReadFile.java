@@ -56,6 +56,10 @@ public class ReadFile {
             }
             counter++;
         }
+        Sort sort = new Sort();
+        sort.sort(junior);
+        sort.sort(senior);
+        sort.sort(elite);
     }
 
 }
